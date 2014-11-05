@@ -292,6 +292,22 @@ h1#logo a {
   text-align: center;
 
 }
+.load1 {
+  height: 50px;
+  width: 60%;
+  background: #F7F7F7;
+ margin: 8px auto 8px 0;
+ position: relative;
+}
+.load1:hover {
+ box-shadow: 0 0 10px #FFF;
+}
+.load1 span {
+  line-height: 50px;
+  font-size: 20px;
+  text-align: left;
+
+}
 .box span {
     position: absolute;
     left: 10%;
