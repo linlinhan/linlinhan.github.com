@@ -1,0 +1,590 @@
+/*
+Theme Name: Me
+Theme URI: http://www.xiaodianlin.com
+Author: Dianlin
+Author URI: http://www.xiaodianlin.com
+Description: Designed by Dianlin
+Version: 1.0
+*/
+html, body, div, span, applet, object, iframe,  h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 18px;
+	vertical-align: baseline;
+	font-family: 华文细黑,"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",STHeiti,MingLiu;
+}
+h1{
+color:white;
+font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",STHeiti,MingLiu;
+}
+
+body {
+	line-height: 2;
+	background:  #2c3e50 ;
+
+}
+textarea:focus, input:focus{
+    outline: 0;
+}
+*:focus {
+    outline: 0;
+}
+
+a{
+	color: #89867E;
+
+}
+
+ol {
+	list-style-type: decimal;
+	margin: 20px 10px;
+}
+ol li{
+	line-height: 4em;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption,
+th,
+td {
+	font-weight: normal;
+	text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+html {
+	overflow-y: scroll;
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+a, a:hover, a:visited, a:focus {
+	color: #FFF;
+}
+a:focus {
+	outline: thin dotted;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
+	display: block;
+}
+audio,
+canvas,
+video {
+	display: inline-block;
+}
+audio:not([controls]) {
+	display: none;
+}
+del {
+	color: #333;
+}
+ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+hr {
+
+	background: rgba(0,0,0,0.1);
+	border: 0;
+	height: 1px;
+	margin: 24px;
+	margin-bottom: 1.714285714rem;
+}
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+strong {
+	color: #444;
+	font-style: bold;
+	text-decoration: none;
+}
+
+ul li {
+	list-style:none;
+}
+blockquote{
+	font-size: 15px;
+	width: 85%;
+	margin: 20px auto;
+	padding: 30px 10px 30px 40px;
+	line-height: 2;
+	background: rgba(256,256,256,0.1);
+	border-left: 8px solid rgba(0,0,0,0.1);
+}
+.clear {
+	clear: both;
+}
+
+
+#banner {
+	text-align: center;
+	padding-top: 80px;
+}
+h1#logo a {
+	color: #FFF;
+	font-size: 40px;
+	text-decoration: none;
+}
+
+#authorgravatar {
+	margin: 0px auto;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	transition: All 1s ease-in-out;
+
+}
+#authorgravatar:hover {
+
+ 	-moz-transform: rotate(360deg);
+   -webkit-transform: rotate(360deg);
+   -o-transform: rotate(360deg);
+   -ms-transform: rotate(360deg);
+   transform: rotate(360deg);  
+}
+
+
+.article {
+	width: 1080px;
+	margin: 0 auto;
+	color: rgba(0,0,0,0.7);
+}
+.article p {
+	font-size: 16px;
+	line-height: 1.4em;
+	margin-bottom: 14px;
+	text-align:left;
+}
+.firstcontent {
+	margin-top: 40px;
+}
+.firstcontent p {
+	text-align: center;
+	margin-bottom: 2em;
+}
+.intro p {
+	color: #FFF;
+
+}
+.intro h2 {
+	margin-bottom: 30px;
+
+}
+
+/*Slide*/
+.slide {
+	text-align: center;
+}
+
+#slide1 {
+	/*  
+	background: url(images/intro.jpg) no-repeat;
+	background-size: cover;
+	   */
+}
+#slide2 {
+	background: url(images/work01.png) no-repeat center top;
+	background-size: cover;
+}
+#slide3 {
+	background: url(images/work02.png) no-repeat center top;
+	background-size: cover;
+}
+#slide4 {
+	/*background: url(images/work03.png) no-repeat;
+	background-size: cover;*/
+}
+.slidecontent1 {
+	background: rgba(0,0,0,0.1);
+	color: #FFF;
+	text-align: center;
+	padding: 10px 60px;
+	display: inline-block;
+	margin: 400px auto 0px;
+}
+.slidecontent {
+	background: rgba(0,0,0,0.1);
+	color: #FFF;
+	text-align: center;
+	padding: 10px 60px;
+	display: block;
+	margin: 0;
+}
+
+.slidecontent h2, .slidecontent1 h2{
+	color: #FFF;
+	font-size: 24px;
+}
+.slidecontent p, .slidecontent1 p{
+	color: #FFF;
+	font-size: 16px;
+}
+.othercontent1 {
+	margin: 40px auto;
+
+}
+.othercontent {
+	margin: 300px auto;
+}
+.skills {
+	margin-top: 100px;
+
+}
+#contact {
+	padding-top: 180px;
+	text-align: center;
+}
+
+.skills h2{
+	text-align: center;	 
+}
+#contact h2{
+	margin-bottom: 20px;
+}
+#contact p{
+	text-align: center;
+}
+
+/*Skills*/
+
+.load {
+  height: 50px;
+  width: 60%;
+  background: #F7F7F7;
+ margin: 40px auto;
+ position: relative;
+}
+.load:hover {
+ box-shadow: 0 0 10px #FFF;
+}
+.load span {
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center;
+
+}
+.box span {
+    position: absolute;
+    left: 10%;
+}
+.percent {
+     position: absolute;
+    right: 10%;
+}
+.progress {
+  height: 50px;
+  overflow: hidden;
+  display: inline-block;
+}
+.myband4{
+    width: 71%;
+    float: left;
+}
+.myband6 {
+  width: 68%;
+  float: left;
+}
+.myIELTS {
+  width: 67%;
+   float: left;
+}
+.myread {
+	width: 73%;
+	float: left;
+}
+.mylin {
+	width: 73%;
+	float: left;
+}
+.mywrite {
+	width: 62%;
+	float: left;
+}
+.myoral {
+	width: 62%;
+	float: left;
+}
+/**
+ * fullPage 1.6.7
+ * https://github.com/alvarotrigo/fullPage.js
+ * MIT licensed
+ *
+ * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
+ */
+html, body {
+    margin: 0;
+    padding: 0;
+	overflow:hidden;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+#superContainer {
+    height: 100%;
+    position: relative;
+	
+	/* Touch detection for Windows 8 */
+	-ms-touch-action: none; 
+}
+.section {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.slide {
+    float: left;
+}
+.slide, .slidesContainer {
+    height: 100%;
+    display: block;
+}
+.slides {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.section.table, .slide.table {
+    display: table;
+    width: 100%;
+}
+.tableCell {
+    display: table-cell;
+   /* vertical-align: middle;*/
+    width: 100%;
+    height: 100%;
+}
+.slidesContainer {
+    float: left;
+    position: relative;
+}
+.controlArrow {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    margin-top: -38px;
+}
+.controlArrow.prev {
+    left: 15px;
+    width: 0;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent #fff transparent transparent;
+}
+.controlArrow.next {
+    right: 15px;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent #fff;
+}
+.scrollable {
+    overflow: scroll;
+}
+.easing {
+    -webkit-transition: all 0.7s ease-out;
+    -moz-transition: all 0.7s ease-out;
+    -o-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+}
+#fullPage-nav {
+    position: fixed;
+    z-index: 100;
+    margin-top: -32px;
+    top: 50%;
+    opacity: 1;
+}
+#fullPage-nav.right {
+    right: 17px;
+}
+#fullPage-nav.left {
+    left: 17px;
+}
+.fullPage-slidesNav {
+    position: absolute;
+    z-index: 4;
+    left: 50%;
+    opacity: 1;
+}
+.fullPage-slidesNav.bottom {
+    bottom: 17px;
+}
+.fullPage-slidesNav.top {
+    top: 17px;
+}
+#fullPage-nav ul,
+.fullPage-slidesNav ul {
+  margin: 0;
+  padding: 0;
+}
+#fullPage-nav li,
+.fullPage-slidesNav li {
+    display: block;
+    width: 14px;
+    height: 13px;
+    margin: 7px;
+    position:relative;
+}
+.fullPage-slidesNav li {
+    display: inline-block;
+}
+#fullPage-nav li a,
+.fullPage-slidesNav li a {
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#fullPage-nav li .active span,
+.fullPage-slidesNav .active span {
+    background: #333;
+}
+#fullPage-nav span,
+.fullPage-slidesNav span {
+    top: 2px;
+    left: 2px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #000;
+    background: rgba(0, 0, 0, 0);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+.fullPage-tooltip {
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    font-family: arial, helvetica, sans-serif;
+    top: -2px;
+}
+.fullPage-tooltip.right {
+    right: 20px;
+}
+.fullPage-tooltip.left {
+    left: 20px;
+}
+.fullPage-slidesNav {
+position: absolute;
+z-index: 4;
+left: 50%;
+opacity: 1;
+}
+
+/*滚动栏*/
+    ::-webkit-scrollbar {
+    	width: 14px;
+    	height: 14px;
+    	background-color: #000;
+    }   
+    ::-webkit-scrollbar-track-piece {
+    	background-color: #000;
+    }   
+    ::-webkit-scrollbar-thumb {
+    	height: 14px;
+    	background-color:  #FFF;
+    }
+    ::-webkit-scrollbar-thumb:hover{
+	height: 14px;
+	background-color:  #FFF;
+}
+/*Background Color*/
+::selection{
+	background: #000;
+	color: white;
+	/* Safari */
+}
+::-moz-selection{
+	background: #000;
+	color: white;
+	/* Firefox */
+}
+
+
+/*Media Queries*/
+/* for 1024px or less */
+@media screen and (max-width:1024px){
+	.article{
+    	width: auto;
+    	padding: 20px 30px;
+    	margin: 0 auto;
+    }
+}
+
+	/* for 480px or less */
+	@media screen and (max-width:720px) {
+	body{
+	background-image: none;
+	padding: 0;
+	}
+	
+	 .site,#sb-site,#main {
+		padding: 0;
+		margin: 0;
+		width: auto;
+
+	}
+
+	h1#logo a {
+		font-size: 24px;
+	}
+
+	#authorgravatar {
+		width: 150px;
+		height: 150px;
+
+	}
+	
+	.article{
+    	width: auto;
+    	padding: 20px 40px;
+    	margin: 0 auto;
+    }
+	.slidecontent1 {
+		margin: 200px auto 0px;
+	}
+	.article p {
+		margin-bottom: 0px;
+	}
+	.firstcontent p {
+		margin-bottom: 1em;
+	}
+
+}
+
